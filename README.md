@@ -6,6 +6,8 @@ A modern web application demonstrating automated testing and deployment practice
 
 View the live application at: [Link to application](https://phenomenal-chimera-6d3019.netlify.app/)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d9d35c97-213b-482b-bde3-5cebb690ca81/deploy-status)](https://app.netlify.com/sites/phenomenal-chimera-6d3019/deploys)
+
 
 ## 🎯 Overview
 
