@@ -24,11 +24,10 @@ jobs:
     - name: Run tests
       run: yarn test
 
-    - name: Netlify Deploy
-      uses: jsmrcaga/action-netlify-deploy@v2.0.0
+    - name: Build
+      run: yarn build
+
+    - name: Deploy to Netlify
+      uses: netlify/actions/cli@master
       with:
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        build_directory: './dist'
-        install_command: yarn install
-        build_command: yarn build
+        args: deploy --dir=./dist --site=${{ secrets.NETLIFY_SITE_ID }} --auth=${{ secrets.NETLIFY_AUTH_TOKEN }} --prod
