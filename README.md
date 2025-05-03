@@ -1,10 +1,6 @@
-Here's a thorough README file that showcases your skills and presents the project as your own work:
-
 # React CI/CD Pipeline with GitHub Actions and Netlify
 
 A modern web application demonstrating automated testing and deployment practices using GitHub Actions and Netlify, showcasing continuous integration and continuous deployment (CI/CD) principles.
-
-![Build Status](https://github.com/yourusername/your-repo-name/workflows/Production%20deploy/badge.svg)
 
 ## 🚀 Live Demo
 
