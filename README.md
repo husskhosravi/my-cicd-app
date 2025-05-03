@@ -88,19 +88,19 @@ my-cicd-app/
 ├── .github/
 │   └── workflows/
 │       └── prod.yaml          # GitHub Actions workflow
-├── src/
-│   ├── assets/                # Static assets
-│   ├── components/            # React components
-│   ├── utils/
-│   │   └── test-utils/        # Testing utilities
-│   ├── App.jsx               # Main application component
-│   ├── App.css               # Application styles
-│   ├── App.test.jsx          # App component tests
-│   └── main.jsx              # Application entry point
-├── dist/                      # Production build files
-├── package.json              # Project dependencies
-├── vite.config.js            # Vite configuration
-└── README.md                 # Project documentation
+├── public/                    # Public static files
+├── src/                       # Source code
+│   ├── App.jsx                # Main application component
+│   ├── App.css                # Application styles
+│   ├── main.jsx               # Application entry point
+│   └── ...                    # Other source files
+├── .gitignore                 # Git ignore file
+├── eslint.config.js           # ESLint configuration
+├── index.html                 # HTML entry point
+├── package.json               # Project dependencies
+├── vite.config.js             # Vite configuration
+├── yarn.lock                  # Yarn lock file
+└── README.md                  # Project documentation
 ```
 
 ## ✨ Key Features
