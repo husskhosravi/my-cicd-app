@@ -80,7 +80,6 @@ I've implemented comprehensive testing using Vitest and React Testing Library:
 ## 🚀 Deployment
 
 The application is automatically deployed to Netlify through the CI/CD pipeline.
-```
 
 ## 📁 Project Structure
 
